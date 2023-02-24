@@ -1,6 +1,6 @@
 public abstract class Vehicle implements Mobile {
 
-    private int maxSpeed;
+    private final int maxSpeed;
 
     public Vehicle(int maxSpeed) {
         this.maxSpeed = maxSpeed;
